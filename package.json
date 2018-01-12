@@ -1,0 +1,31 @@
+{
+  "name": "y",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "debug": "^3.1.0",
+    "lodash": "^4.17.4",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.0.17",
+    "winston": "^3.0.0-rc1"
+  },
+  "scripts": {
+    "bundle": "webpack",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).",
+  "main": "index.js",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "webpack": "^3.10.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
